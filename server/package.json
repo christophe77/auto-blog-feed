@@ -1,0 +1,22 @@
+{
+	"name": "auto-blog-feed",
+	"version": "1.0.0",
+	"main": "server.js",
+	"author": "christophe bellec",
+	"license": "MIT",
+	"scripts": {
+		"start": "nodemon index.js"
+	},
+	"dependencies": {
+		"axios": "^1.4.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.3.1",
+		"express": "^4.18.2",
+		"express-async-handler": "^1.2.0",
+		"freeimage.js": "^1.1.6",
+		"fs-extra": "^11.1.1",
+		"mongoose": "^7.3.4",
+		"nodemon": "^3.0.1",
+		"openai": "^3.3.0"
+	}
+}
